@@ -1,0 +1,27 @@
+# app
+fastapi
+pydantic
+uvicorn
+loguru
+
+# db
+sqlalchemy 
+alembic
+psycopg2-binary   # for ddl in tets migrations
+asyncpg
+sqlalchemy-utils
+greenlet
+inflect     # for auto pluralization tablename
+
+# testing
+pytest
+anyio
+httpx
+asgi-lifespan
+
+# settings
+python-dotenv
+
+#linters
+ruff
+black
